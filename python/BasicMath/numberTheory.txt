@@ -1,0 +1,55 @@
+
+what is prime number?
+the number which has the factor 1 or itself is the prime number
+example 2, 3, 5, 7....
+
+what is composite numbers?
+the number which are non prime number are composite numbers
+
+factors of number?
+factors are 1 to N
+example: 44
+
+1, 2, 4, 11, 22, 44
+
+lets say if i know the first half 1, 2, 4 by dividing the number by the given value which is 44
+ like 44/1, 44/2, 44/4 then i know the remaming numbers which are 11, 22, 44
+
+so suppose the factors are 1 to N and the middle numbers m
+
+which mean 1....m.....n where the n is m x m (2x22, 11 x 4, 1 x 44 )
+
+then n = m**2
+
+where m = √n
+example square root of 44 is 6 
+we have 6 factors
+
+Note: Every natural number is either prime number or can be formed by prime number
+example 22 not prime but for 22 we have 2 11 where 2 and 11 are prime which gives 22 
+
+what is GCD(greatest common Divisor)?
+GCD of Two more integer is the largest interger that divides the two more interger
+
+if gcd((a,b)) = c
+where a/c, b/c will be the zero remainder
+
+example:
+8, 12
+
+prime factors of 8 and 12
+8 - 2, 2, 2
+12 - 2, 2, 3
+which gives 2 and 2 common then 4
+
+note: gcd of two numbers which has nothing common then it is co prime/ relativly prime 
+
+what is lcm?
+the smallest positive integer that divides the both interger 
+
+example 4, 6
+4 - 4, 8, 12, 16, 20, 24, 28..
+6 - 6, 12, 18, 24, 30...
+
+the least common multiple is 12
+
