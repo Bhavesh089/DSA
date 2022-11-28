@@ -1,0 +1,26 @@
+what is modulo?
+where it gives the remainder 
+
+symbol %
+
+what will be the range for the modulo?
+
+eg: 9 % 5 which gives range 0-4
+
+The numbers wraps around after reaching certain values is known as modulo arthematic
+wraps after reaching (n-1)
+1 % 5 - 1
+2 % 5 - 2
+3 % 5 - 3
+4 % 5 - 4
+5 % 5 - 0
+6 % 5 - 1
+7 % 5 - 2
+8 % 5 - 3
+9 % 5 - 4
+
+what is congurence?
+if a = b where (mod n) => a % n = b % n
+     -
+
+we have the formula where (a-b) % n = 0
