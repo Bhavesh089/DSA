@@ -16,4 +16,4 @@ const solve = (A) => {
 
   return ans;
 };
-console.log(solve([9, -20, -11, -8, -4, 2, -12, 14, 1]));
+console.log(solve([1, -1, -2, 2]));

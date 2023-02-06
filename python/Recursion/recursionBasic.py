@@ -1,12 +1,10 @@
 def recursion(n):
-    if n == 0:
+    if n == 1:
+        print(n)
+        return 1
 
-        return "done"
-
-    a = recursion(n-1)
     print(n)
-    print(a)
-    return "hello"
+    recursion(n-1)
 
 
-print(recursion(3))
+recursion(5)
