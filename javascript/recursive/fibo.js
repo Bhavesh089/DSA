@@ -10,4 +10,4 @@ function fibo(A) {
   return fibo(A - 2) + fibo(A - 1);
 }
 
-console.log(fibo(9));
+console.log(fibo(3));
