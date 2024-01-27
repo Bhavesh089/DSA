@@ -10,6 +10,7 @@ function mergeSort(arr) {
           arr[k++] = left[i++];
         } else {
           arr[k++] = right[j++];
+          count += (left.length - 1) - i
         }
       }
   
