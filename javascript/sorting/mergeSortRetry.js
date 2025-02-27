@@ -1,5 +1,6 @@
-const mergeSort = (arr) => {
+count = 0
 
+const mergeSort = (arr) => {
     const merged = (start, mid, end) => {
 
         k = start
@@ -11,12 +12,13 @@ const mergeSort = (arr) => {
 
         while(i < left.length && j < right.length){
 
-            if(left[i] < right[j]){
+            if(left[i] <= right[j]){
 
                 arr[k] = left[i]
                 k++
                 i++
             } else {
+                count += left.length  - i
                 arr[k] = right[j]
                 k++
                 j++
@@ -51,6 +53,7 @@ const mergeSort = (arr) => {
 
     return merging(start, end)
 }
-a = [2,6,4,4,1]
+a =[6,12,10,17,10,22,9,19,21,31,26,8]
 console.log(mergeSort(a))
 console.log(a)
+console.log(count, "this is count--->")

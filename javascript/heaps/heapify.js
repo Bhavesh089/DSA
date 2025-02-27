@@ -6,12 +6,12 @@ function heapify(arr, n, i) {
         const rightChild = 2 * i + 2;
 
         // Check if left child exists and is greater than root
-        if (leftChild < n && arr[leftChild] < arr[largest]) {
+        if (leftChild < n && arr[leftChild] > arr[largest]) {
             largest = leftChild;
         }
 
         // Check if right child exists and is greater than the largest so far
-        if (rightChild < n && arr[rightChild] < arr[largest]) {
+        if (rightChild < n && arr[rightChild] > arr[largest]) {
             largest = rightChild;
         }
 
@@ -26,7 +26,7 @@ function heapify(arr, n, i) {
 }
 
 // Example usage:
-const arr = [5,2,3,4];
+const arr = [1,8,4,5];
 const n = arr.length;
 heapify(arr, n, 0);
 
